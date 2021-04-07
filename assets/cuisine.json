@@ -1,0 +1,25 @@
+{
+  "cuisine":[
+    {
+      "id":"1",
+      "image":"title",
+      "about":"origin",
+      "tipo":"type",
+      "cuisine_type":[
+        {
+          "id":1,
+          "title":"Italian"
+        },
+        {
+          "id":2,
+          "title":"title 2"
+        }
+      ],
+      "capitulos":[
+        "chapter 1 text 1",
+        "chapter 1 text 2",
+        "chapter 1 text 3"
+      ]
+    }
+  ]
+}
