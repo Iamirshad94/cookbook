@@ -41,6 +41,7 @@ dev_dependencies:
   get_it: ^1.0.3+2
   firebase_database: ^4.4.0
   flappy_search_bar: 1.4.1
+  fluttertoast:
   flutter_test:
     sdk: flutter
 

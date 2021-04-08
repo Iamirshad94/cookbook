@@ -50,7 +50,7 @@ class _RecipeListPageState extends State<RecipeListPage> {
                                     Navigator.push(
                                       context,
                                       PageTransition(
-                                        type: PageTransitionType.leftToRight,
+                                        type: PageTransitionType.rightToLeft,
                                         child: RecipeDetail(index: index,),
                                       ),
                                     );

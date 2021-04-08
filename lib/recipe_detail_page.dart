@@ -27,7 +27,7 @@ class _RecipeDetailState extends State<RecipeDetail> {
        Padding(
          padding: const EdgeInsets.all(8.0),
          child: Container(
-           height: 1200,
+           height: 1000,
            child: Column(
              children: [
                Text("${recipeVar[widget.index].foodRecipe[widget.index].title}",style: TextStyle(color: Colors.black,fontFamily: 'cursive',fontWeight: FontWeight.bold,fontSize: 30),),
@@ -44,7 +44,7 @@ class _RecipeDetailState extends State<RecipeDetail> {
                        SizedBox(
                          height: 5,
                        ),
-                       Text("25 Min",style: TextStyle(color: Colors.black,fontFamily: 'cursive',fontWeight: FontWeight.normal,fontSize: 16),),
+                       Text("${recipeVar[widget.index].foodRecipe[widget.index].time}",style: TextStyle(color: Colors.black,fontFamily: 'cursive',fontWeight: FontWeight.normal,fontSize: 16),),
                      ],
                    ),
                    Column(
@@ -90,11 +90,12 @@ class _RecipeDetailState extends State<RecipeDetail> {
                SizedBox(
                  height: 10,
                ),
+               Flexible(child: Text("${recipeVar[widget.index].foodRecipe[widget.index].directions}",style: TextStyle(color: Colors.black,fontSize: 20,fontFamily: 'cursive',fontWeight: FontWeight.normal),)),
+
              ],
            ),
          ),
        ),
-        Flexible(child: Text("${recipeVar[widget.index].foodRecipe[widget.index].directions}",style: TextStyle(color: Colors.black,fontSize: 20,fontFamily: 'cursive',fontWeight: FontWeight.normal),)),
 
       ],
     );
